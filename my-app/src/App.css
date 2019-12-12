@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.App-logo  {
+  width: 450px;
+  height: 130px;
+}
