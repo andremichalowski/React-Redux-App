@@ -14,13 +14,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #283134;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
   color: white;
 }
 
@@ -41,3 +41,21 @@
   width: 450px;
   height: 130px;
 }
+
+.magic-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap
+}
+
+.card-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+p {
+  font-family: 'Exo', sans-serif;
+  margin-left: 20px;
+} 
